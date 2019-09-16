@@ -7,7 +7,8 @@
     "url": "https://github.com/mr-kyle/monash-uni-web-automated-tests.git"
   },
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "test:nw": "./node_modules/.bin/nightwatch --group register,form,activities,menus"
   },
   "keywords": [
     "monash",
@@ -19,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "nightwatch": "^1.2.2",
-    "smashtest": "^1.2.12-beta"
+    "smashtest": "^1.2.12-beta",
+    "chromedriver": "^74.0.0"
   }
 }

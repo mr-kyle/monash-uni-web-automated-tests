@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "npm run test",
-    "test:nw": "./node_modules/.bin/nightwatch --group register,form,activities,menus"
+    "test:nw": "./node_modules/.bin/nightwatch --group register,form,activities,menus",
+    "test:smash": "cd tests\\smash && smashtest "
   },
   "keywords": [
     "monash",
@@ -19,8 +20,8 @@
   "author": "Kyle Huynh for Monash University",
   "license": "ISC",
   "dependencies": {
+    "chromedriver": "^74.0.0",
     "nightwatch": "^1.2.2",
-    "smashtest": "^1.2.12-beta",
-    "chromedriver": "^74.0.0"
+    "smashtest": "^1.2.12-beta"
   }
 }

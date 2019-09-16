@@ -1,0 +1,12 @@
+Open Chrome
+
+    Desktop
+
+        Navigate to 'monash.edu/search?query=biology'
+    
+            Click 'button[id=preferences_prompt_submit_partial]'
+
+                Type ' ' into 'input[id=main-query]'
+
+                    Verify 'div.tt-menu.tt-horizontal' is visible
+            

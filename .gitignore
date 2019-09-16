@@ -1,0 +1,30 @@
+.env
+package-lock.json
+node_modules
+.DS_Store
+npm-debug.log
+dist
+dist-*
+.worknotes
+tests_output
+tests_output/*
+############
+## Sublime
+############
+*.sublime-project
+*.sublime-workspac
+
+###########
+## Phpstorm
+###########
+.idea/*
+
+###########
+## Backstop Tests
+###########
+tests/backstop/backstop_data/bitmaps_test
+tests/backstop/backstop_data/html_report
+tests/backstop/backstop_data/ci_report
+src/pages/TestPage
+chromedriver.log
+debug.log

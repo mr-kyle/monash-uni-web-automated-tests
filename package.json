@@ -1,0 +1,24 @@
+{
+  "name": "monash-web-automated-tests",
+  "version": "1.0.0",
+  "description": "Various test of Monash.edu, including e2e and visual tests.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/mr-kyle/monash-uni-web-automated-tests.git"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "monash",
+    "test",
+    "visuals",
+    "e2e"
+  ],
+  "author": "Kyle Huynh for Monash University",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^1.2.2",
+    "smashtest": "^1.2.12-beta"
+  }
+}
